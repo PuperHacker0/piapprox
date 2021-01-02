@@ -1,0 +1,6 @@
+Made by PuperHacker, 01/01/2021.
+
+This is a multithreaded algorithm that approximates pi using Monte Carlo.
+It's accurate up to 4 decimal places (1e7 points iterations per thread, 16 threads) due to rounding errors and duplicate points.
+The engine used for the uniform distribution is "Mersenne Twister".
+Be careful when running it, as it will max out your CPU in an attempt to expedite the computation.
